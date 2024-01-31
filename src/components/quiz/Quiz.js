@@ -124,7 +124,7 @@ const inputHandle = (event) => {
  const handleQuizCreate =async () => {
   
   try{
-    const response=await fetch('http://localhost:5000/api/quiz/quiz',{
+    const response=await fetch('https://quiz-creating.onrender.com/api/quiz/quiz',{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
