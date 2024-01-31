@@ -1,0 +1,70 @@
+table tr:nth-child(even) {
+    background-color: rgb(190, 190, 232);
+  }
+  .head{
+    text-align: center;
+    color: blue;
+    width: 71vw;
+    margin-top: 0px;
+  }
+  thead{
+    background-color: blue;
+    border-radius:7px ;
+    color: white;
+     border-radius: 10px;
+  }
+  .table{
+    overflow-y: scroll;
+    height: 67vh;
+    width: 71vw;
+  }
+
+  .table::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+  }
+  table{
+    width: 100%;
+  }
+  .header{
+    display: flex;
+  }
+  .blur{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.83);
+  }
+  .main{
+  position: fixed ;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    background: #fff;
+    padding: 40px;
+    width: 50vw;
+     height: 50vh;
+     border-radius: 7px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn{
+    width: 36%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:0 0 20px 0 rgb(172, 172, 230);
+    text-align: center;
+  }
+  .btn:hover{
+    color: white;
+    background-color: red;
+  }

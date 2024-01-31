@@ -1,0 +1,13 @@
+.input{
+    margin:4px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.correct{
+    background-color: green;
+    color: white;
+}

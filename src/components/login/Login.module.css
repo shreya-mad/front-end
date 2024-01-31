@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: inline-block;
+    margin: 10px;
+    height: 25px;
+
+}
+.in{
+    float: right;
+    width: 25vw;
+    border: none;
+    height: 100%;
+    background-color: rgb(229, 229, 239);
+    border-radius: 5px;
+}
+.btn{
+    background-color: rgb(139, 139, 188) ;
+    border: none;
+    width: 120px;
+    height: 23px;
+    border-radius:7px;
+    margin-top: 25px;
+}
