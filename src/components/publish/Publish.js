@@ -7,7 +7,7 @@ const Publish = () => {
     const {quizId} = location.state;
     const navigate=useNavigate();
     const handleShare=()=>{
-        const shareLink=   `http://localhost:3000/quizgiving/${quizId}`;
+        const shareLink=   `https://front-end-swart-five.vercel.app/quizgiving/${quizId}`;
         navigator.clipboard.writeText(shareLink);
         toast.success('Link copied to clipboard',{
             duration:3000,

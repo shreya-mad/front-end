@@ -53,7 +53,7 @@ const Analytics = () => {
   };
 
   const handleShare=(quizId)=>{
-    const linkToCopy=`http://localhost:3000/quizgiving/${quizId}`;
+    const linkToCopy=`hhttps://front-end-swart-five.vercel.app/quizgiving/${quizId}`;
     console.log(linkToCopy);
     navigator.clipboard.writeText(linkToCopy);
     toast.success('Link copied to clipboard',{
