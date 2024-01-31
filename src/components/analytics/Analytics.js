@@ -54,7 +54,7 @@ const Analytics = () => {
 
   const handleShare=(quizId)=>{
    
-    const linkToCopy=` https://front-end-nu-eight.vercel.app/quizgiving/${quizId}`;
+    const linkToCopy=`https://front-end-nu-eight.vercel.app/quizgiving/${quizId}`;
     console.log(linkToCopy);
     navigator.clipboard.writeText(linkToCopy);
     toast.success('Link copied to clipboard',{
