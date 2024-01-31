@@ -34,7 +34,7 @@ const Publish = () => {
              <div className={style.btn} onClick={()=>navigate('/home')}>X</div>
              <div className={style.mains}>
              <h2>Congratulations Your Quiz is Published!!</h2>
-             <div className={style.input}> {`https://front-end-swart-five.vercel.app/quizgiving/${quizId}`}</div>
+             <div className={style.input}> {`https://front-end-nu-eight.vercel.app/quizgiving/${quizId}`}</div>
              <button className={style.share} onClick={handleShare}>share</button>
              
              </div>
